@@ -1,0 +1,29 @@
+.carousel-demo .product-item .product-item-content {
+    border: 1px solid var(--surface-d);
+    border-radius: 3px;
+    margin: .3rem;
+    height: 18em;
+    width: 18em ;
+    text-align: center;
+    padding: 2rem 0;
+    margin-right: -10em;
+}
+.carousel-demo .product-item .product-image {
+    width: 8em;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.view-item{
+    color: #6366F1;
+    padding-right: 0.6em;
+    justify-content: left;
+}
+
+h6.mt-0.mb-3.type-item{
+    padding-bottom: 0px;
+}
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button{
+    padding: 0;
+}
+.p-carousel .p-carousel-indicators .p-carousel-indicator button {
+    padding: 0;
+}

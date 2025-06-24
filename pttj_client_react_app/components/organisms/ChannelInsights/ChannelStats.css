@@ -1,0 +1,43 @@
+.main {
+    display:flex;
+    flex-direction: row;
+   
+  }
+  
+  .stats-header {
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: left;
+  }
+  
+  .title {
+    padding-left: 1rem;
+  }
+  
+  .channel-name {
+    height: 4rem;
+    margin: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  .productcard{
+    display: inline-block;
+    width:30rem;
+    margin:2rem;
+  }
+  .tile {
+    margin: 2%;
+    display: inline-flex;
+    height: 300px;
+    width: 300px;
+    padding: auto;
+    background-color: #ddd;
+  }
+  
+  .tile .num-channels {
+    font-weight: 600;
+    font-size: 6.5em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  

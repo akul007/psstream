@@ -1,0 +1,45 @@
+/* check boxes and toogle button */
+
+.p-checkbox .p-checkbox-box{
+  border: 1px solid #ffffff !important;
+}
+
+.p-steps .p-steps-item.p-highlight .p-steps-title {
+  color: #ffffff !important;
+}
+
+.p-steps .p-steps-item.p-highlight .p-steps-number {
+  color: #ffffff !important;
+}
+.p-steps ul {
+  background: #071426 !important;
+  border-radius: 1rem;
+
+}
+
+.p-steps .p-steps-item:before {
+  border-top: 1px solid #ffffff !important;
+}
+
+.p-togglebutton.p-button {
+  border: 1px solid #aeb0b3 !important;
+}
+
+
+
+
+
+/* card */
+
+.card{
+  background: #071426 !important;
+}
+
+.formHeader img {
+  aspect-ratio: 1;
+}
+
+.captch img{
+  aspect-ratio: 3;
+}
+

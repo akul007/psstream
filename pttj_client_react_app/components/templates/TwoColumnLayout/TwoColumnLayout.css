@@ -1,0 +1,23 @@
+/* you can add your css accordingly */
+.layout{
+  display: flex;
+  padding: 0.5rem;
+}
+.children{
+  margin-left: 1.5rem;
+  width: 83.333%;
+}
+@media screen and (max-width: 540px){
+  .sidebar{
+    margin: 0;
+  }
+  .layout{
+    display: block;
+    padding: 0;
+  }
+  .children{
+    margin-left: 0;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+}

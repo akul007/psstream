@@ -1,0 +1,40 @@
+.container{
+    border: 0.1em solid #000000;
+    border-radius: 1.2em;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+}
+
+h1{
+    color: #FE414D;
+}
+
+.oops-item{
+    text-align: center;
+    color: red;
+    font-size: 2em;
+}
+.sorry-item{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
+}
+
+.para-item{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+#icon-item{
+    position: relative;
+    margin-top: 0.6em;
+    margin-bottom: 0.2em;
+    font-size: 5em;
+    color: #FE414D
+}

@@ -1,0 +1,52 @@
+.inputfeild-item p{
+    color: #FE414D;
+    font-size: small;
+  }
+
+.videoFile {
+  text-overflow: ellipsis;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.video-size-tag {
+  margin-left: .8rem;
+}
+
+.upload-size {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.input-field{
+  display:flex;
+  flex-direction: column;
+}
+
+.video-item , .thumbnail-item{
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.thumbnail-data{
+  margin-top: .5rem;
+}
+
+.video-form{
+  margin: 0 !important;
+}
+
+@media only screen and (min-device-width: 768px){
+  .input-field{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 4px;
+  }
+}
+
+@media only screen and (max-device-width: 450px){
+  .m-8{
+    margin: 0 !important;
+  }
+}

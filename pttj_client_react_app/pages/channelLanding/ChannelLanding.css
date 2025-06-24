@@ -1,0 +1,78 @@
+
+
+.Inline-message{
+    position: fixed;
+    margin-top: 2.5rem;
+    z-index: 2;
+    animation: hideMe 10s forwards;
+}
+@keyframes hideMe{
+    0%{
+        opacity: 1;
+    }
+    99.99%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+button.p-button.p-component.follow-item{
+    margin-right: 0.9em;
+    width: 7rem;
+    height: 2rem;
+}
+button.p-button.p-component.subscribe-item{
+    width: 7rem;
+    height: 2rem;
+}
+.channellogo-item img{
+    width: 3em;
+    height: 3em;
+    margin-top: 0.5rem;
+}
+.about-items{
+    display: flex;
+    height:12em
+}
+
+.channellogo-item{
+    margin-left: 2em;
+}
+
+.followsubscribe-item{
+    margin-top: 1em;
+}
+
+.recentlyviewedsection-item{
+    margin-bottom: 1em;
+}
+
+
+@media (max-width:840px){
+    .followsubscribe-item{
+        margin-left: 35%;
+    }
+}
+@media (max-width:650px){
+    .followsubscribe-item{
+        margin-left: 20%;
+    }
+}
+@media (max-width:530px){
+    .followsubscribe-item{
+        margin-left: 10%;
+    }
+}
+@media (max-width:475px){
+    .followsubscribe-item{
+        margin-left: 0;
+    }
+    .channellogo-item{
+        margin-left: 0.5em;
+    }
+    .channelname-item h2{
+        font-size: 2em;
+    }
+}

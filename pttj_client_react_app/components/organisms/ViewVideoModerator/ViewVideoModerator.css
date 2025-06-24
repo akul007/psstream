@@ -1,0 +1,88 @@
+.main-container{
+  margin-left: 15em;
+  margin-bottom: 5em;
+}
+
+button.p-button.p-component.read-button{
+  padding: 0;
+}
+.text-items{
+  margin-left: 1rem;
+  color: white;
+}
+
+button.p-button.p-component.approve-button{
+  margin-right: 0.5rem;
+  padding: 0.2em 0.4em;
+}
+
+button.p-button.p-component.reject-button{
+  margin-right: 0.5rem;
+  padding: 0.2em 0.4em;
+}
+
+button.p-button.p-component.archive-button{
+  margin-right: 0.5rem;
+  padding: 0.2em 0.4em;
+}
+
+div.text-container.card{
+  width: 72%;
+  height: 60%;
+}
+
+.date-item{
+  font-weight: 400;
+  margin-left: 0.5em;
+}
+
+.button-container{
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title-item{
+  margin-top: 0.5em;
+}
+.description-item{
+  width: 100%;
+  margin-bottom: 0.4em;
+}
+
+.dateview-item{
+  margin-bottom: 0.4em;
+}
+
+
+@media screen and (max-width:820px){
+  .description-item{
+    margin-bottom: 0.8em;
+  }
+}
+
+@media screen and (max-width:768px){
+  .main-container{
+    margin-left: 5em;
+  }
+  .title-item{
+    margin-top: 0.5em;
+    font-size: x-small;
+  }
+  .description-item{
+    margin-bottom: 0.4em;
+    font-size: xx-small;
+  }
+  
+  .dateview-item{
+    margin-bottom: 0.4em;
+    font-size: xx-small;
+  }
+  button.p-button.p-component.archive-button,button.p-button.p-component.approve-button,button.p-button.p-component.reject-button{
+    padding: 0.2em 0.4em;
+    font-size: 0.6em;
+  }
+  button.p-button.p-component.read-button{
+    font-size: 0.4em;
+  }
+}
+

@@ -1,0 +1,224 @@
+.video-badge {
+   border-radius: 0;
+   padding: .25em .5rem;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 1rem;
+   letter-spacing: 0;
+ }
+ 
+ .video-badge.type {
+   background: #2b2b2b;
+   color: #bdc1bd;
+   position:relative; top:2.06em; right:0.4em;
+ }
+
+.dataview-demo .video-name {
+   font-size: 1.5rem;
+   font-weight: 700;
+   text-overflow: ellipsis;
+   overflow:hidden;
+   white-space:nowrap;
+
+}
+
+.dataview-demo .video-description {
+   margin: 0 0 1rem 0;
+}
+
+.dataview-demo .video-info {
+   text-align: left;
+   padding-left: 0.5rem;
+}
+
+.dataview-demo .video-category-icon {
+   vertical-align: middle;
+   margin-right: .5rem;
+}
+
+.dataview-demo .video-category {
+   font-weight: 600;
+   vertical-align: middle;
+}
+
+.dataview-demo .video-category-item {
+   background-color: #bdc1bd;
+   /* padding: .25em .5rem; */
+   position:relative; top: 2.1em; left:0.45em;
+}
+
+.dataview-demo .video-grid-item {
+  margin: .5em;
+  border: 1px solid #50636d;
+  padding: 1rem;
+  width: 21rem;
+}
+
+.dataview-demo .video-grid-item .video-grid-item-top,
+   .dataview-demo .video-grid-item .video-grid-item-bottom {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.dataview-demo .video-info .video-type {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+}
+
+.dataview-demo .video-grid-item img {
+   width: 18rem;
+   height: 10rem;
+   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+   /* margin: 0.5rem 0; */
+   margin-bottom: 0.5rem;
+}
+
+.dataview-demo .video-grid-item .video-grid-item-content {
+   text-align: center;
+}
+
+.dataview-demo .video-grid-item .video-price {
+   font-size: 1.5rem;
+   font-weight: 600;
+   padding-left: 0.5rem;
+}
+
+@media(max-width: 1240px) {
+   .dataview-demo .video-grid-item {
+      width: 20rem;
+   }   
+
+   .dataview-demo .video-grid-item img {
+      width: 17rem;
+      height: 8rem;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      margin-bottom: 0.5rem;
+   }
+}
+
+@media(max-width: 1189px) {
+   .dataview-demo .video-category-item {
+      background-color: #bdc1bd;
+      padding: .25em .5rem;
+      position:relative; top: 2.14em; left:0.9em;
+   }
+
+   .video-badge.type {
+      background: #2b2b2b;
+      color: #bdc1bd;
+      position:relative; top:2.06em; right:0.95em;
+    }
+
+   .dataview-demo .video-grid-item {
+      margin: .5em;
+      border: 1px solid var(--surface-border);
+      padding: 1rem;
+      width: 30rem;
+   }   
+
+   .dataview-demo .video-grid-item img {
+      width: 26rem;
+      height: 13rem;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      /* margin: 0.5rem 0; */
+      margin-bottom: 0.5rem;
+   }
+}
+
+@media(max-width: 1156px) {
+   .dataview-demo .video-category-item {
+      background-color: #bdc1bd;
+      padding: .25em .5rem;
+      position:relative; top: 2.14em; left:1.1em;
+   }
+
+   .video-badge.type {
+      background: #2b2b2b;
+      color: #bdc1bd;
+      position:relative; top:2.06em; right:1.15em;
+    }
+
+   .dataview-demo .video-grid-item {
+      width: 29rem;
+   }   
+
+   .dataview-demo .video-grid-item img {
+      width: 24.5rem;
+      height: 12.5rem;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      margin-bottom: 0.5rem;
+   }
+}
+
+@media(max-width: 1122px) {
+   .dataview-demo .video-category-item {
+      background-color: #bdc1bd;
+      padding: .25em .5rem;
+      position:relative; top: 2.1em; left:0.9em;
+   }
+
+   .video-badge.type {
+      background: #2b2b2b;
+      color: #bdc1bd;
+      position:relative; top:2.06em; right:0.9em;
+    }
+
+   .dataview-demo .video-grid-item {
+      width: 26rem;
+   }   
+
+   .dataview-demo .video-grid-item img {
+      width: 22rem;
+      height: 11rem;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      margin-bottom: 0.5rem;
+   }
+}
+
+.panel {
+   margin-bottom: 0.5rem;
+}
+
+/* toast */
+.toast-demo button {
+   min-width: 10rem;
+   margin-right: .5rem;
+}
+
+@media screen and (max-width: 960px) {
+   .toast-demo button {
+       width: 100%;
+       margin-bottom: .5rem;
+   }
+}
+
+/* dialog box */
+.dialog-demo .p-button {
+   margin: 0 .5rem 0 0;
+   min-width: 10rem;
+}
+
+.dialog-demo p {
+   margin: 0;
+   line-height: 1.5;
+}
+
+.dialog-demo .p-dialog .p-button {
+   min-width: 6rem;
+}
+
+@media screen and (max-width: 540px){
+  .dataview-demo .video-grid-item{
+    width: 200px !important;
+  }
+
+  .dataview-demo .video-grid-item img{
+    width: 200px !important;
+  }
+}

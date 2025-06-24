@@ -1,0 +1,41 @@
+/* .p-button.p-button-text{
+  margin-left: 2em;
+  margin-top: 1em;
+} */
+.filter-item{
+  margin-top: 1em;
+}
+.card{
+  height: 2em;
+}
+
+.filter-items{
+  display: flex;
+  padding-left: 2em;
+  margin-top: 1.5em;
+}
+
+.grandeur-items{
+  padding-left: 3em ;
+}
+.Sort-items{
+  padding-left: 3em;
+}
+h6{
+  color: #6366F1;
+}
+button.p-button.p-component.p-button-text.filter-item{
+  margin-top: 0.7em;
+  margin-left: 1.8em;
+  margin-bottom: -1em;
+  padding: 0.3rem 0.8rem;
+  width: 6em;
+}
+
+.p-listbox .p-listbox-list .p-listbox-item{
+  padding: 0.4rem 1rem;
+}
+
+.h6, h6 {
+  margin-left: 0.4em;
+}

@@ -1,0 +1,13 @@
+export const FirstName="First Name";
+export const MiddleName="Middle Name";
+export const LastName="Last Name";
+export const Gender="Gender";
+export const Age="Age";
+export const PhoneNo="Phone Number";
+export const Email="Email";
+export const KarmaPoints="Karma Points";
+export const Street="Street";
+export const City="City";
+export const State="State";
+export const Country="Country";
+export const PinCode="Pin Code";

@@ -1,0 +1,33 @@
+.about-items{
+    display: flex;
+    height:12em
+}
+.aboutcontainer-item {
+    flex: 1;
+}  
+
+.para-items{
+    margin-left: 3.5em;
+}
+
+.aboutcontainer-item:first-child {
+    margin-right: 20em;
+} 
+@media (max-width: 500px) { 
+    .aboutcontainer-item:first-child {
+        margin-right: 2em;
+    } 
+    .para-items{
+        margin-left: 0em;
+    }
+    
+}
+
+@media (min-width:700px){
+    .aboutcontainer-item:first-child {
+        margin-right: 20em;
+    } 
+    .para-items{
+        margin-left: 3.5em;
+    }
+}
